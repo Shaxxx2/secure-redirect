@@ -11,15 +11,16 @@
     const validToken = 'abc123';
 
     if (token !== validToken) {
-      document.write("Access Denied: Invalid or missing token.");
+      document.write("⛔ Access Denied: Invalid or missing token.");
     } else {
       setTimeout(() => {
         window.location.href = "https://workink.net/1SMQ/5ewq31m6";
-      }, 1500);
+      }, 1500); // Delay for Cloudflare JS Challenge to pass if needed
     }
   </script>
 </head>
 <body>
-  <p style="font-family:sans-serif;">Validating access, please wait...</p>
+  <p style="font-family:sans-serif;">🔐 Validating access, please wait...</p>
 </body>
 </html>
+
