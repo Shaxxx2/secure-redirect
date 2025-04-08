@@ -2,26 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Verifying Access...</title>
+  <title>Redirecting...</title>
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script>
-    const urlParams = new URLSearchParams(window.location.search);
-    const token = urlParams.get('token');
-    const validToken = 'abc123';
-
-    if (token !== validToken) {
-      document.write("⛔ Access Denied: Invalid or missing token.");
-    } else {
-      setTimeout(() => {
-        window.location.href = "https://workink.net/1SMQ/5ewq31m6";
-      }, 1500);
-    }
+    // Auto redirect after a short delay
+    setTimeout(() => {
+      window.location.href = "https://workink.net/1SMQ/5ewq31m6";
+    }, 1500); // 1.5 seconds
   </script>
 </head>
 <body>
-  <p style="font-family:sans-serif;">🔐 Validating access, please wait...</p>
+  <p style="font-family:sans-serif;">🔐 Redirecting... please wait.</p>
 </body>
 </html>
+
 
 
